@@ -1,10 +1,6 @@
 # Uncomment this line to define a global platform for your project
 # platform :ios, '9.0'
 
-if ENV['FLUTTER_FRAMEWORK_DIR'] == nil
-  abort('Please set FLUTTER_FRAMEWORK_DIR to the directory containing Flutter.framework')
-end
-
 target 'Runner' do
   # Pods for Runner
 
@@ -26,8 +22,6 @@ target 'Runner' do
     }
   end
 
-  # Bugfender
-  pod 'BugfenderSDK/ObjC', '~> 1.5.2'
 end
 
 post_install do |installer|
