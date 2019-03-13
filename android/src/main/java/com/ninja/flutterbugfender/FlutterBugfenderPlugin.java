@@ -1,7 +1,5 @@
 package com.ninja.flutterbugfender;
 
-import java.util.Map;
-
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
@@ -11,7 +9,6 @@ import io.flutter.plugin.common.PluginRegistry.Registrar;
 import com.bugfender.sdk.Bugfender;
 
 import android.app.Activity;
-import android.support.v7.appcompat.BuildConfig;
 
 /**
  * FlutterBugfenderPlugin
